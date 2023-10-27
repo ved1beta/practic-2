@@ -36,4 +36,15 @@ img{
 }
 .box{
 display: flex;
+flex-wrap: wrap;
+padding: 18px;
+justify-content: space-between;
+}
+.home,.about,.help{
+width: 300px;
+text-align: center;
+margin: 10px;
+}
+div > h3{
+    text-align: center;
 }
